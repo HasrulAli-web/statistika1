@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Statistika - Hasrul Ali</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+    <button onclick="prevSlide()">⬅</button>
+    <button onclick="nextSlide()">➡</button>
+</div>
+
+<div class="container">
+
+<!-- SLIDE 1 -->
+<div class="slide active">
+    <h1>📊 STATISTIKA</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <h3>Konsep & Aplikasi</h3>
+    <p>Disusun oleh: Hasrul Ali</p>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide">
+    <h2>Apa itu Statistika?</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png">
+    <p>Statistika adalah ilmu yang mempelajari pengumpulan, pengolahan, analisis, dan interpretasi data.</p>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide">
+    <h2>Datum vs Data</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920349.png">
+    <p><b>Datum:</b> satu nilai</p>
+    <p><b>Data:</b> kumpulan nilai</p>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide">
+    <h2>Populasi & Sampel</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+    <p>Populasi = seluruh objek</p>
+    <p>Sampel = sebagian objek</p>
+</div>
+
+<!-- SLIDE 5 -->
+<div class="slide">
+    <h2>Macam Data</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721274.png">
+    <p>Kualitatif & Kuantitatif</p>
+    <p>Nominal, Ordinal, Interval, Rasio</p>
+</div>
+
+<!-- SLIDE 6 -->
+<div class="slide">
+    <h2>Tabel Frekuensi</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/4149/4149678.png">
+    <p>Menunjukkan jumlah kemunculan data</p>
+</div>
+
+<!-- SLIDE 7 -->
+<div class="slide">
+    <h2>Mean, Median, Modus</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2436/2436874.png">
+    <p>Mean = rata-rata</p>
+    <p>Median = nilai tengah</p>
+    <p>Modus = nilai terbanyak</p>
+</div>
+
+<!-- SLIDE 8 -->
+<div class="slide">
+    <h2>Jangkauan & Kuartil</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2620/2620898.png">
+    <p>Range = max - min</p>
+    <p>Q1, Q2, Q3 membagi data</p>
+</div>
+
+<!-- SLIDE 9 -->
+<div class="slide">
+    <h2>Standar Deviasi</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/3132/3132693.png">
+    <p>Mengukur penyebaran data</p>
+</div>
+
+<!-- SLIDE HITUNG -->
+<div class="slide">
+    <h2>🧮 Hitung Statistika</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png">
+
+    <input type="text" id="data" placeholder="70,75,80,85">
+    <button onclick="hitung()">Hitung</button>
+
+    <div id="hasil"></div>
+</div>
+
+<!-- SLIDE GRAFIK -->
+<div class="slide">
+    <h2>📊 Grafik</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721274.png">
+    <canvas id="chart"></canvas>
+</div>
+
+<!-- SLIDE KESIMPULAN -->
+<div class="slide">
+    <h2>Kesimpulan</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png">
+    <p>Statistika membantu analisis data</p>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
